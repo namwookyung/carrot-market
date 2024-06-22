@@ -8,5 +8,5 @@ module.exports = {
     extend: {},
   },
   darkMode: "media",  // media - 브라우저의 설정을 따라감, class - 브라우저 설정과 상관없이 모드를 토글해야 함
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }
